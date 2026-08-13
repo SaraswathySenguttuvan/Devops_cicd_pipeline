@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="276f92ab-053a-4a37-9265-e72529d17594" name="Changes" comment="" />
+    <list default="true" id="276f92ab-053a-4a37-9265-e72529d17594" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +33,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
@@ -91,7 +94,8 @@
       <workItem from="1786525944353" duration="251000" />
       <workItem from="1786526307702" duration="46000" />
       <workItem from="1786526389983" duration="147000" />
-      <workItem from="1786526615433" duration="12721000" />
+      <workItem from="1786526615433" duration="13190000" />
+      <workItem from="1786621300648" duration="40000" />
     </task>
     <servers />
   </component>
