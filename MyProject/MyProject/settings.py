@@ -74,6 +74,7 @@ WSGI_APPLICATION = 'MyProject.wsgi.application'
 
 
 import os
+import sys
 
 DATABASES = {
     'default': {
@@ -85,6 +86,15 @@ DATABASES = {
         'PORT': os.environ.get('DB_PORT', '3306'),
     }
 }
+
+# Override database settings for unit testing or container smoke validation
+if 'test' in sys.argv or os.environ.get('USE_SQLITE') == 'True':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 
 # Password validation
