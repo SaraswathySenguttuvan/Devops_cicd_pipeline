@@ -14,7 +14,7 @@ on:
 
 jobs:
   lint-and-test:
-    name: Lint & Run Unit Tests1
+    name: Lint & Run Unit Tests 1
     runs-on: ubuntu-latest
     defaults:
       run:
